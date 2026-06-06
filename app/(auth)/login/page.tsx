@@ -33,8 +33,30 @@ const demoLogin = () => {
   }, 500);
 };
 
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-[#fffaf5] via-[#fff7ed] to-orange-50 overflow-hidden">
+
+return (
+  <div
+    className="
+      min-h-screen
+      bg-[#F8F4EE]
+      relative
+      overflow-hidden
+    "
+  >
+
+    {/* Background Gradient Effects */}
+    <div className="absolute inset-0 -z-10">
+      <div className="absolute top-0 left-0 h-[500px] w-[500px] rounded-full bg-orange-300/20 blur-3xl" />
+
+      <div className="absolute bottom-0 right-0 h-[500px] w-[500px] rounded-full bg-orange-400/15 blur-3xl" />
+
+      <div className="absolute top-1/2 left-1/2 h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-orange-200/10 blur-3xl" />
+    </div>
+
+    {/* Decorative Background Elements */}
+    <div className="absolute top-0 right-0 w-96 h-96 bg-orange-200/20 rounded-full blur-3xl -z-10" />
+    <div className="absolute bottom-0 left-0 w-96 h-96 bg-orange-300/10 rounded-full blur-3xl -z-10" />
+
       {/* Decorative Background Elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-orange-200/20 rounded-full blur-3xl -z-10" />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-orange-300/10 rounded-full blur-3xl -z-10" />

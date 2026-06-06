@@ -2,10 +2,12 @@
 
 import { Search, Bell, Settings } from "lucide-react";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Topbar() {
   const [searchQuery, setSearchQuery] = useState("");
   const [notificationCount] = useState(4);
+  const router = useRouter();
   const [showNotifications, setShowNotifications] = useState(false);
 
   const handleSearch = (
@@ -163,12 +165,18 @@ export default function Topbar() {
           </div>
 
           {/* Settings */}
-          <button className="hidden sm:inline-flex items-center justify-center rounded-xl border border-slate-200 bg-slate-50 p-2.5 transition hover:bg-slate-100">
-            <Settings className="h-5 w-5 text-slate-600" />
-          </button>
+         <button
+  onClick={() => router.push("/settings")}
+  className="hidden sm:inline-flex items-center justify-center rounded-xl border border-slate-200 bg-slate-50 p-2.5 transition hover:bg-slate-100"
+>
+  <Settings className="h-5 w-5 text-slate-600" />
+</button>
 
           {/* User Profile */}
-          <div className="flex items-center gap-3 rounded-2xl bg-gradient-to-r from-orange-50 to-orange-100/50 border border-orange-200 px-3 py-2 md:px-4 md:py-2.5">
+<div
+  onClick={() => router.push("/profile")}
+  className="flex items-center gap-3 rounded-2xl bg-gradient-to-r from-orange-50 to-orange-100/50 border border-orange-200 px-3 py-2 md:px-4 md:py-2.5 cursor-pointer hover:shadow-md transition"
+>
             <div className="flex h-8 w-8 md:h-10 md:w-10 items-center justify-center rounded-full bg-gradient-to-br from-orange-500 to-orange-600 text-sm md:text-base font-bold text-white shadow-md">
               R
             </div>

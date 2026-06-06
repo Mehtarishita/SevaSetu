@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-
+import VolunteerCard from "@/components/volunteers/VolunteerCard";
 export default function VolunteerRegisterPage(){
   const [name,setName] = useState("");
   const router = useRouter();
