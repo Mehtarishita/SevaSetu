@@ -5,7 +5,31 @@ import { useState } from "react";
 
 export default function Topbar() {
   const [searchQuery, setSearchQuery] = useState("");
-  const [notificationCount] = useState(3);
+ const [notificationCount] = useState(4);
+const [showNotifications, setShowNotifications] = useState(false);
+
+const notifications = [
+  {
+    title: "Critical Medical Incident",
+    message: "Zone 3 requires immediate assistance",
+    time: "2 min ago",
+  },
+  {
+    title: "Volunteer Shortage",
+    message: "Ghat 14 below required staffing",
+    time: "10 min ago",
+  },
+  {
+    title: "AI Reassignment Complete",
+    message: "5 volunteers reassigned successfully",
+    time: "20 min ago",
+  },
+  {
+    title: "Crowd Density Alert",
+    message: "Zone 7 crowd density exceeds threshold",
+    time: "30 min ago",
+  },
+];
 
   return (
     <header className="sticky top-0 z-20 border-b border-orange-100 bg-white/90 backdrop-blur-xl">
@@ -34,14 +58,51 @@ export default function Topbar() {
         {/* Right Section */}
         <div className="flex items-center gap-3 md:gap-4">
           {/* Notifications */}
-          <button className="relative inline-flex items-center justify-center rounded-xl border border-slate-200 bg-slate-50 p-2.5 transition hover:bg-slate-100">
-            <Bell className="h-5 w-5 text-slate-600" />
-            {notificationCount > 0 && (
-              <span className="absolute top-0 right-0 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-xs font-bold text-white">
-                {notificationCount}
-              </span>
-            )}
-          </button>
+         <div className="relative">
+  <button
+    onClick={() => setShowNotifications(!showNotifications)}
+    className="relative inline-flex items-center justify-center rounded-xl border border-slate-200 bg-slate-50 p-2.5 transition hover:bg-slate-100"
+  >
+    <Bell className="h-5 w-5 text-slate-600" />
+
+    {notificationCount > 0 && (
+      <span className="absolute top-0 right-0 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-xs font-bold text-white">
+        {notificationCount}
+      </span>
+    )}
+  </button>
+
+  {showNotifications && (
+    <div className="absolute right-0 mt-3 w-96 rounded-2xl border border-slate-200 bg-white shadow-2xl z-50 overflow-hidden">
+      <div className="p-4 border-b">
+        <h3 className="font-semibold text-slate-900">
+          Notifications
+        </h3>
+      </div>
+
+      <div className="max-h-96 overflow-y-auto">
+        {notifications.map((notification, index) => (
+          <div
+            key={index}
+            className="p-4 border-b hover:bg-slate-50 cursor-pointer"
+          >
+            <h4 className="font-medium text-slate-900">
+              {notification.title}
+            </h4>
+
+            <p className="text-sm text-slate-600 mt-1">
+              {notification.message}
+            </p>
+
+            <p className="text-xs text-slate-400 mt-2">
+              {notification.time}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
+</div>
 
           {/* Settings */}
           <button className="hidden sm:inline-flex items-center justify-center rounded-xl border border-slate-200 bg-slate-50 p-2.5 transition hover:bg-slate-100">
