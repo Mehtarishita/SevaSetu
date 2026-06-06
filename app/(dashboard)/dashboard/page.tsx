@@ -117,7 +117,7 @@ const SAMPLE_ACTIVITIES: ActivityItem[] = [
     type: "assignment",
     volunteer: { name: "Raj Patel", avatar: "RP" },
     description: "Assigned to Medical Team - Zone 2 Ghat",
-    timestamp: new Date(Date.now() - 5 * 60000),
+   timestamp: new Date("2026-01-01T10:00:00"),
     metadata: { zone: "Zone 2", status: "Medical" },
   },
   {
@@ -125,7 +125,7 @@ const SAMPLE_ACTIVITIES: ActivityItem[] = [
     type: "checkin",
     volunteer: { name: "Anjali Sharma", avatar: "AS" },
     description: "Checked in for morning shift",
-    timestamp: new Date(Date.now() - 12 * 60000),
+    timestamp: new Date("2026-01-01T09:48:00"),
     metadata: { zone: "Zone 1", duration: "8h" },
   },
   {
@@ -133,7 +133,7 @@ const SAMPLE_ACTIVITIES: ActivityItem[] = [
     type: "alert",
     volunteer: { name: "Vikram Singh", avatar: "VS" },
     description: "Fatigue score exceeded threshold (8.2/10)",
-    timestamp: new Date(Date.now() - 25 * 60000),
+    timestamp: new Date("2026-01-01T09:35:00"),
     metadata: { duration: "7h 45m" },
   },
   {
@@ -141,7 +141,7 @@ const SAMPLE_ACTIVITIES: ActivityItem[] = [
     type: "checkout",
     volunteer: { name: "Meera Reddy", avatar: "MR" },
     description: "Completed shift and checked out",
-    timestamp: new Date(Date.now() - 45 * 60000),
+  timestamp: new Date("2026-01-01T09:15:00"),
     metadata: { zone: "Zone 3", duration: "8h 15m" },
   },
   {
@@ -149,7 +149,7 @@ const SAMPLE_ACTIVITIES: ActivityItem[] = [
     type: "completion",
     volunteer: { name: "Ashok Kumar", avatar: "AK" },
     description: "Completed crowd control task",
-    timestamp: new Date(Date.now() - 60 * 60000),
+    timestamp: new Date("2026-01-01T09:00:00"),
     metadata: { zone: "Zone 4" },
   },
 ];
