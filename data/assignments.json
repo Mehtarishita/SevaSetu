@@ -1,0 +1,502 @@
+[
+  {
+    "id": "asn_1",
+    "incidentId": "inc_15",
+    "volunteerId": "vol_39",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "active",
+    "matchScore": 44,
+    "matchBreakdown": {
+      "skills": 0,
+      "proximity": 2,
+      "fatigue": 26,
+      "availability": 6,
+      "language": 15,
+      "total": 78
+    },
+    "fatigueImpact": 0,
+    "estimatedResponseMinutes": 20,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_2",
+    "incidentId": "inc_3",
+    "volunteerId": "vol_43",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "completed",
+    "matchScore": 92,
+    "matchBreakdown": {
+      "skills": 29,
+      "proximity": 29,
+      "fatigue": 15,
+      "availability": 28,
+      "language": 19,
+      "total": 61
+    },
+    "fatigueImpact": 9,
+    "estimatedResponseMinutes": 56,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_3",
+    "incidentId": "inc_20",
+    "volunteerId": "vol_47",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "completed",
+    "matchScore": 54,
+    "matchBreakdown": {
+      "skills": 9,
+      "proximity": 16,
+      "fatigue": 14,
+      "availability": 10,
+      "language": 25,
+      "total": 24
+    },
+    "fatigueImpact": 0,
+    "estimatedResponseMinutes": 45,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_4",
+    "incidentId": "inc_9",
+    "volunteerId": "vol_16",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "completed",
+    "matchScore": 91,
+    "matchBreakdown": {
+      "skills": 24,
+      "proximity": 16,
+      "fatigue": 15,
+      "availability": 24,
+      "language": 19,
+      "total": 98
+    },
+    "fatigueImpact": 8,
+    "estimatedResponseMinutes": 44,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_5",
+    "incidentId": "inc_13",
+    "volunteerId": "vol_8",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "completed",
+    "matchScore": 20,
+    "matchBreakdown": {
+      "skills": 12,
+      "proximity": 20,
+      "fatigue": 7,
+      "availability": 11,
+      "language": 16,
+      "total": 85
+    },
+    "fatigueImpact": 5,
+    "estimatedResponseMinutes": 12,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_6",
+    "incidentId": "inc_17",
+    "volunteerId": "vol_30",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "active",
+    "matchScore": 50,
+    "matchBreakdown": {
+      "skills": 1,
+      "proximity": 22,
+      "fatigue": 2,
+      "availability": 20,
+      "language": 14,
+      "total": 64
+    },
+    "fatigueImpact": 8,
+    "estimatedResponseMinutes": 20,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_7",
+    "incidentId": "inc_5",
+    "volunteerId": "vol_37",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "completed",
+    "matchScore": 52,
+    "matchBreakdown": {
+      "skills": 22,
+      "proximity": 17,
+      "fatigue": 3,
+      "availability": 5,
+      "language": 23,
+      "total": 19
+    },
+    "fatigueImpact": 3,
+    "estimatedResponseMinutes": 24,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_8",
+    "incidentId": "inc_7",
+    "volunteerId": "vol_3",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "completed",
+    "matchScore": 62,
+    "matchBreakdown": {
+      "skills": 28,
+      "proximity": 6,
+      "fatigue": 19,
+      "availability": 10,
+      "language": 6,
+      "total": 97
+    },
+    "fatigueImpact": 9,
+    "estimatedResponseMinutes": 54,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_9",
+    "incidentId": "inc_3",
+    "volunteerId": "vol_14",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "pending",
+    "matchScore": 72,
+    "matchBreakdown": {
+      "skills": 23,
+      "proximity": 10,
+      "fatigue": 15,
+      "availability": 1,
+      "language": 19,
+      "total": 34
+    },
+    "fatigueImpact": 1,
+    "estimatedResponseMinutes": 51,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_10",
+    "incidentId": "inc_6",
+    "volunteerId": "vol_15",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "active",
+    "matchScore": 40,
+    "matchBreakdown": {
+      "skills": 29,
+      "proximity": 25,
+      "fatigue": 14,
+      "availability": 3,
+      "language": 6,
+      "total": 4
+    },
+    "fatigueImpact": 5,
+    "estimatedResponseMinutes": 46,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_11",
+    "incidentId": "inc_11",
+    "volunteerId": "vol_24",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "completed",
+    "matchScore": 75,
+    "matchBreakdown": {
+      "skills": 10,
+      "proximity": 22,
+      "fatigue": 15,
+      "availability": 13,
+      "language": 3,
+      "total": 90
+    },
+    "fatigueImpact": 8,
+    "estimatedResponseMinutes": 29,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_12",
+    "incidentId": "inc_17",
+    "volunteerId": "vol_15",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "completed",
+    "matchScore": 81,
+    "matchBreakdown": {
+      "skills": 18,
+      "proximity": 18,
+      "fatigue": 25,
+      "availability": 17,
+      "language": 16,
+      "total": 80
+    },
+    "fatigueImpact": 4,
+    "estimatedResponseMinutes": 45,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_13",
+    "incidentId": "inc_18",
+    "volunteerId": "vol_35",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "completed",
+    "matchScore": 55,
+    "matchBreakdown": {
+      "skills": 8,
+      "proximity": 23,
+      "fatigue": 10,
+      "availability": 6,
+      "language": 16,
+      "total": 49
+    },
+    "fatigueImpact": 5,
+    "estimatedResponseMinutes": 50,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_14",
+    "incidentId": "inc_13",
+    "volunteerId": "vol_44",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "completed",
+    "matchScore": 50,
+    "matchBreakdown": {
+      "skills": 12,
+      "proximity": 27,
+      "fatigue": 22,
+      "availability": 12,
+      "language": 17,
+      "total": 82
+    },
+    "fatigueImpact": 3,
+    "estimatedResponseMinutes": 49,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_15",
+    "incidentId": "inc_5",
+    "volunteerId": "vol_48",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "completed",
+    "matchScore": 72,
+    "matchBreakdown": {
+      "skills": 22,
+      "proximity": 15,
+      "fatigue": 1,
+      "availability": 1,
+      "language": 4,
+      "total": 52
+    },
+    "fatigueImpact": 9,
+    "estimatedResponseMinutes": 59,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_16",
+    "incidentId": "inc_3",
+    "volunteerId": "vol_8",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "pending",
+    "matchScore": 16,
+    "matchBreakdown": {
+      "skills": 0,
+      "proximity": 12,
+      "fatigue": 0,
+      "availability": 7,
+      "language": 10,
+      "total": 97
+    },
+    "fatigueImpact": 3,
+    "estimatedResponseMinutes": 48,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_17",
+    "incidentId": "inc_12",
+    "volunteerId": "vol_49",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "pending",
+    "matchScore": 32,
+    "matchBreakdown": {
+      "skills": 3,
+      "proximity": 10,
+      "fatigue": 1,
+      "availability": 21,
+      "language": 14,
+      "total": 16
+    },
+    "fatigueImpact": 5,
+    "estimatedResponseMinutes": 33,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_18",
+    "incidentId": "inc_6",
+    "volunteerId": "vol_2",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "pending",
+    "matchScore": 43,
+    "matchBreakdown": {
+      "skills": 8,
+      "proximity": 16,
+      "fatigue": 22,
+      "availability": 24,
+      "language": 23,
+      "total": 79
+    },
+    "fatigueImpact": 0,
+    "estimatedResponseMinutes": 24,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_19",
+    "incidentId": "inc_17",
+    "volunteerId": "vol_34",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "completed",
+    "matchScore": 53,
+    "matchBreakdown": {
+      "skills": 12,
+      "proximity": 5,
+      "fatigue": 16,
+      "availability": 17,
+      "language": 23,
+      "total": 58
+    },
+    "fatigueImpact": 9,
+    "estimatedResponseMinutes": 5,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_20",
+    "incidentId": "inc_17",
+    "volunteerId": "vol_11",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "active",
+    "matchScore": 16,
+    "matchBreakdown": {
+      "skills": 10,
+      "proximity": 19,
+      "fatigue": 0,
+      "availability": 28,
+      "language": 23,
+      "total": 43
+    },
+    "fatigueImpact": 1,
+    "estimatedResponseMinutes": 22,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_21",
+    "incidentId": "inc_15",
+    "volunteerId": "vol_12",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "completed",
+    "matchScore": 8,
+    "matchBreakdown": {
+      "skills": 22,
+      "proximity": 25,
+      "fatigue": 10,
+      "availability": 17,
+      "language": 10,
+      "total": 85
+    },
+    "fatigueImpact": 3,
+    "estimatedResponseMinutes": 58,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_22",
+    "incidentId": "inc_5",
+    "volunteerId": "vol_9",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "active",
+    "matchScore": 20,
+    "matchBreakdown": {
+      "skills": 28,
+      "proximity": 11,
+      "fatigue": 13,
+      "availability": 10,
+      "language": 2,
+      "total": 39
+    },
+    "fatigueImpact": 5,
+    "estimatedResponseMinutes": 32,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_23",
+    "incidentId": "inc_3",
+    "volunteerId": "vol_9",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "pending",
+    "matchScore": 15,
+    "matchBreakdown": {
+      "skills": 9,
+      "proximity": 3,
+      "fatigue": 4,
+      "availability": 6,
+      "language": 2,
+      "total": 23
+    },
+    "fatigueImpact": 0,
+    "estimatedResponseMinutes": 33,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_24",
+    "incidentId": "inc_15",
+    "volunteerId": "vol_20",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "active",
+    "matchScore": 69,
+    "matchBreakdown": {
+      "skills": 29,
+      "proximity": 15,
+      "fatigue": 6,
+      "availability": 6,
+      "language": 8,
+      "total": 57
+    },
+    "fatigueImpact": 0,
+    "estimatedResponseMinutes": 11,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "asn_25",
+    "incidentId": "inc_8",
+    "volunteerId": "vol_40",
+    "assignedAt": "2026-06-06T14:16:50.217Z",
+    "status": "completed",
+    "matchScore": 31,
+    "matchBreakdown": {
+      "skills": 28,
+      "proximity": 6,
+      "fatigue": 2,
+      "availability": 24,
+      "language": 10,
+      "total": 15
+    },
+    "fatigueImpact": 1,
+    "estimatedResponseMinutes": 36,
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  }
+]

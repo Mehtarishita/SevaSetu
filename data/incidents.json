@@ -1,0 +1,362 @@
+[
+  {
+    "id": "inc_1",
+    "title": "lost-person incident near Ghat 41",
+    "description": "Reported by public.",
+    "type": "crowd-control",
+    "priority": "high",
+    "status": "assigned",
+    "location": {
+      "latitude": 21.19967642207854,
+      "longitude": 79.08393295039166,
+      "address": "Ghat 190"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 15,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_2",
+    "title": "security incident near Ghat 48",
+    "description": "Reported by public.",
+    "type": "security",
+    "priority": "medium",
+    "status": "assigned",
+    "location": {
+      "latitude": 21.218590466571662,
+      "longitude": 79.16867541936112,
+      "address": "Ghat 109"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 56,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_3",
+    "title": "security incident near Ghat 3",
+    "description": "Reported by public.",
+    "type": "lost-person",
+    "priority": "medium",
+    "status": "assigned",
+    "location": {
+      "latitude": 21.193427046259544,
+      "longitude": 79.17534564222568,
+      "address": "Ghat 182"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 71,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_4",
+    "title": "lost-person incident near Ghat 41",
+    "description": "Reported by public.",
+    "type": "security",
+    "priority": "high",
+    "status": "open",
+    "location": {
+      "latitude": 21.17601027662709,
+      "longitude": 79.0815518576792,
+      "address": "Ghat 33"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 41,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_5",
+    "title": "medical incident near Ghat 41",
+    "description": "Reported by public.",
+    "type": "lost-person",
+    "priority": "high",
+    "status": "assigned",
+    "location": {
+      "latitude": 21.236112115796438,
+      "longitude": 79.16254879411296,
+      "address": "Ghat 77"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 86,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_6",
+    "title": "medical incident near Ghat 5",
+    "description": "Reported by public.",
+    "type": "lost-person",
+    "priority": "low",
+    "status": "open",
+    "location": {
+      "latitude": 21.15573272162785,
+      "longitude": 79.15616792612799,
+      "address": "Ghat 198"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 70,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_7",
+    "title": "medical incident near Ghat 9",
+    "description": "Reported by public.",
+    "type": "medical",
+    "priority": "low",
+    "status": "assigned",
+    "location": {
+      "latitude": 21.237884027246402,
+      "longitude": 79.15704143099592,
+      "address": "Ghat 69"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 34,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_8",
+    "title": "fire incident near Ghat 15",
+    "description": "Reported by public.",
+    "type": "fire",
+    "priority": "high",
+    "status": "assigned",
+    "location": {
+      "latitude": 21.17559966206264,
+      "longitude": 79.11227963064965,
+      "address": "Ghat 103"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 53,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_9",
+    "title": "security incident near Ghat 10",
+    "description": "Reported by public.",
+    "type": "crowd-control",
+    "priority": "low",
+    "status": "closed",
+    "location": {
+      "latitude": 21.16057616505911,
+      "longitude": 79.17700848029877,
+      "address": "Ghat 83"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 70,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_10",
+    "title": "lost-person incident near Ghat 13",
+    "description": "Reported by public.",
+    "type": "medical",
+    "priority": "low",
+    "status": "assigned",
+    "location": {
+      "latitude": 21.17303454822254,
+      "longitude": 79.13621948814284,
+      "address": "Ghat 117"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 90,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_11",
+    "title": "fire incident near Ghat 21",
+    "description": "Reported by public.",
+    "type": "fire",
+    "priority": "medium",
+    "status": "open",
+    "location": {
+      "latitude": 21.19382448249489,
+      "longitude": 79.09862145221813,
+      "address": "Ghat 108"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 67,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_12",
+    "title": "fire incident near Ghat 16",
+    "description": "Reported by public.",
+    "type": "lost-person",
+    "priority": "medium",
+    "status": "closed",
+    "location": {
+      "latitude": 21.206176557583905,
+      "longitude": 79.15197505105668,
+      "address": "Ghat 95"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 91,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_13",
+    "title": "security incident near Ghat 21",
+    "description": "Reported by public.",
+    "type": "medical",
+    "priority": "high",
+    "status": "assigned",
+    "location": {
+      "latitude": 21.141843893969142,
+      "longitude": 79.08368544658516,
+      "address": "Ghat 71"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 64,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_14",
+    "title": "fire incident near Ghat 27",
+    "description": "Reported by public.",
+    "type": "medical",
+    "priority": "medium",
+    "status": "assigned",
+    "location": {
+      "latitude": 21.230417050530427,
+      "longitude": 79.12349655104981,
+      "address": "Ghat 141"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 17,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_15",
+    "title": "lost-person incident near Ghat 48",
+    "description": "Reported by public.",
+    "type": "medical",
+    "priority": "low",
+    "status": "assigned",
+    "location": {
+      "latitude": 21.187038627126135,
+      "longitude": 79.10096557786643,
+      "address": "Ghat 96"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 67,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_16",
+    "title": "lost-person incident near Ghat 46",
+    "description": "Reported by public.",
+    "type": "crowd-control",
+    "priority": "low",
+    "status": "closed",
+    "location": {
+      "latitude": 21.18704030695724,
+      "longitude": 79.12349999253978,
+      "address": "Ghat 50"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 87,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_17",
+    "title": "fire incident near Ghat 14",
+    "description": "Reported by public.",
+    "type": "lost-person",
+    "priority": "medium",
+    "status": "assigned",
+    "location": {
+      "latitude": 21.21182738212101,
+      "longitude": 79.0849854138262,
+      "address": "Ghat 107"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 64,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_18",
+    "title": "crowd-control incident near Ghat 19",
+    "description": "Reported by public.",
+    "type": "fire",
+    "priority": "low",
+    "status": "open",
+    "location": {
+      "latitude": 21.199616098117303,
+      "longitude": 79.084177267776,
+      "address": "Ghat 115"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 41,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_19",
+    "title": "medical incident near Ghat 32",
+    "description": "Reported by public.",
+    "type": "security",
+    "priority": "medium",
+    "status": "closed",
+    "location": {
+      "latitude": 21.146479794753354,
+      "longitude": 79.12785561066693,
+      "address": "Ghat 6"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 69,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  },
+  {
+    "id": "inc_20",
+    "title": "medical incident near Ghat 8",
+    "description": "Reported by public.",
+    "type": "crowd-control",
+    "priority": "low",
+    "status": "assigned",
+    "location": {
+      "latitude": 21.201382018839464,
+      "longitude": 79.09369560731304,
+      "address": "Ghat 177"
+    },
+    "assignedVolunteerIds": [],
+    "severityScore": 37,
+    "reportedAt": "2026-06-06T14:16:50.217Z",
+    "createdAt": "2026-06-06T14:16:50.217Z",
+    "updatedAt": "2026-06-06T14:16:50.217Z"
+  }
+]
