@@ -7,12 +7,28 @@ export default function LoadingScreen() {
   const router = useRouter();
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      router.push("/dashboard");
-    }, 3000);
+  const audio = new Audio("/audio/shankh.mp3");
+  audio.volume = 0.3;
 
-    return () => clearTimeout(timer);
-  }, [router]);
+  const startTime = Date.now();
+
+  audio.play().catch(() => {});
+
+  audio.onended = () => {
+    const elapsed = Date.now() - startTime;
+
+    const remaining = Math.max(0, 5000 - elapsed);
+
+    setTimeout(() => {
+      router.push("/dashboard");
+    }, remaining);
+  };
+
+  return () => {
+    audio.pause();
+    audio.currentTime = 0;
+  };
+}, [router]);
 
   return (
     <div

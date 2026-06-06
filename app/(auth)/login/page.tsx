@@ -12,7 +12,7 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleLogin = async (e: React.FormEvent) => {
+ const handleLogin = async (e: React.FormEvent) => {
   e.preventDefault();
 
   setIsLoading(true);
@@ -26,9 +26,11 @@ const demoLogin = () => {
   setEmail("demo@sevaksetu.ai");
   setPassword("Volunteer123");
 
+  setIsLoading(true);
+
   setTimeout(() => {
     window.location.href = "/loading-screen";
-  }, 300);
+  }, 500);
 };
 
   return (
