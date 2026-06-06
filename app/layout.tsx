@@ -1,3 +1,5 @@
+// Suppress missing type declarations for CSS imports in this TS file
+// @ts-ignore
 import "./globals.css";
 import type { Metadata } from "next";
 

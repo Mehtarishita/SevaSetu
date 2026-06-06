@@ -13,21 +13,23 @@ export default function LoginPage() {
   const [isLoading, setIsLoading] = useState(false);
 
   const handleLogin = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsLoading(true);
-    // Simulate login
-    setTimeout(() => {
-      window.location.href = "/dashboard";
-    }, 500);
-  };
+  e.preventDefault();
 
-  const demoLogin = () => {
-    setEmail("demo@sevaksetu.ai");
-    setPassword("Volunteer123");
-    setTimeout(() => {
-      window.location.href = "/dashboard";
-    }, 300);
-  };
+  setIsLoading(true);
+
+  setTimeout(() => {
+    window.location.href = "/loading-screen";
+  }, 500);
+};
+
+const demoLogin = () => {
+  setEmail("demo@sevaksetu.ai");
+  setPassword("Volunteer123");
+
+  setTimeout(() => {
+    window.location.href = "/loading-screen";
+  }, 300);
+};
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#fffaf5] via-[#fff7ed] to-orange-50 overflow-hidden">
