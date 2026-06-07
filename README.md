@@ -31,13 +31,6 @@ SevakSetu AI addresses these challenges through an AI-assisted command center.
 ---
 
 ## ✨ Features
-### Login Page
-
-![Login](Screenshots/login.png)
-
-### Dashboard
-
-![Dashboard](Screenshots/dashboard.png)
 
 ### Volunteer Management
 
