@@ -183,7 +183,7 @@ export default function Topbar() {
 
             <div className="hidden sm:block">
               <p className="text-sm font-semibold text-slate-900">
-                Riya
+                Rishita
               </p>
               <p className="text-xs text-slate-600">
                 Coordinator
