@@ -1,24 +1,26 @@
-# SevaSetu
-SevaSetu AI is a smart volunteer management platform for large-scale events like Mahakumbh. It uses AI to recruit, allocate, track, and optimize volunteers based on skills, location, availability, and workload. Features include smart task assignment, real-time monitoring, emergency response support, and workforce analytics. 
-# 🚀 SevaSetu AI
+# 🚀 SevakSetu AI
 
-**Smart Volunteer Deployment & Workforce Optimization Platform**
+### AI-Powered Volunteer Operations Platform for Large-Scale Events
 
-SevaSetu AI is an AI-powered volunteer management and workforce optimization platform designed for large-scale events like Mahakumbh. It helps authorities recruit, manage, allocate, monitor, and optimize volunteers based on skills, location, workload, and operational requirements.
+SevakSetu AI is an intelligent volunteer deployment and incident management platform designed for large-scale public events such as **Mahakumbh 2028**.
+
+The platform combines volunteer management, incident response coordination, analytics, and AI-powered recommendations to help organizers deploy the right volunteers at the right time.
 
 ---
 
-## 🌟 Problem Statement
+## 🎯 Problem Statement
 
-Managing thousands of volunteers during large public events is challenging. Manual allocation often leads to:
+Managing thousands of volunteers across multiple locations during large public gatherings is challenging.
 
-* Inefficient volunteer deployment
-* Delayed emergency response
-* Volunteer overloading
-* Poor resource utilization
-* Lack of real-time visibility
+Organizers often struggle with:
 
-SevaSetu AI solves these challenges using AI-driven assignment and workforce optimization.
+* Manual volunteer assignment
+* Delayed incident response
+* Uneven workforce distribution
+* Volunteer fatigue management
+* Lack of intelligent decision support
+
+SevakSetu AI addresses these challenges through an AI-assisted command center.
 
 ---
 
@@ -26,61 +28,102 @@ SevaSetu AI solves these challenges using AI-driven assignment and workforce opt
 
 ### 👥 Volunteer Management
 
-* Volunteer registration and onboarding
-* Skill-based profiling
-* Availability tracking
-* Volunteer status monitoring
+* Volunteer registration
+* Volunteer directory
+* Search and filtering
+* Skill tracking
+* Availability monitoring
+* Fatigue score tracking
 
 ### 🚨 Incident Management
 
-* Create and manage incidents
-* Priority-based categorization
-* Real-time incident tracking
-* Emergency response coordination
+* Incident reporting
+* Incident categorization
+* Priority-based handling
+* Status monitoring
+* Incident dashboard
 
-### 🤖 AI-Powered Assignment
+### 🤖 AI Volunteer Assignment
 
-* Intelligent volunteer matching
-* Skill-based recommendations
-* Location-aware deployment
-* Workload balancing
+Powered by **Google Gemini 2.5 Flash**
+
+The AI evaluates:
+
+* Skill relevance
+* Availability
+* Fatigue levels
+* Language compatibility
+* Deployment suitability
+
+and recommends the most appropriate volunteer for an incident.
 
 ### 📊 Analytics Dashboard
 
-* Volunteer distribution insights
-* Skills analysis
-* Workload monitoring
-* Operational metrics
+* Operational overview
+* Volunteer statistics
+* Incident insights
+* Performance monitoring
+* Command center analytics
 
-### 🧠 Fatigue Detection
+### 🔔 Smart Notifications
 
-* Volunteer workload tracking
-* Burnout prevention recommendations
-* Smart shift balancing
+* Critical incident alerts
+* Volunteer shortage alerts
+* Crowd density warnings
+* Assignment updates
 
-### 📍 Command Center
+### ⚙️ Settings & Profile Management
 
-* Centralized operational dashboard
-* Live volunteer monitoring
-* Incident overview
-* Deployment visibility
+* User profile section
+* Theme support architecture
+* Future-ready personalization system
 
 ---
 
-## 🏗️ Project Structure
+## 🏗️ Architecture
 
-```bash
-sevasetu-ai/
-├── app/
-├── components/
-├── lib/
-├── services/
-├── hooks/
-├── context/
-├── data/
-├── public/
-├── types/
-└── scripts/
+The project follows a scalable architecture with separate layers for:
+
+```text
+app/
+components/
+services/
+hooks/
+context/
+types/
+lib/
+api/
+```
+
+This structure allows easy migration to production-grade backend services.
+
+---
+
+## 🧠 AI Recommendation Engine
+
+The platform integrates Google Gemini AI to analyze incidents and available volunteers.
+
+Example:
+
+**Incident**
+
+```text
+Lost elderly woman near Ram Ghat.
+Speaks Marathi.
+Needs wheelchair assistance.
+```
+
+**AI Output**
+
+```text
+Recommended Volunteer: Kavya Sharma
+
+Confidence Score: 92%
+
+Reason:
+- Language compatibility
+- Volunteer availability
+- Suitable skill set
 ```
 
 ---
@@ -89,252 +132,144 @@ sevasetu-ai/
 
 ### Frontend
 
-* Next.js 15 (App Router)
+* Next.js 15
 * React
 * TypeScript
 * Tailwind CSS
-* shadcn/ui
 
 ### Backend
 
 * Next.js API Routes
 
-### Database
+### AI
 
-* Firebase Firestore
-
-### Authentication
-
-* Firebase Authentication
-
-### AI Integration
-
-* Google Gemini API
+* Google Gemini 2.5 Flash
+* @google/genai
 
 ### Deployment
 
 * Vercel
 
----
+### Planned Backend
 
-## 📂 Core Modules
-
-### Dashboard
-
-Provides a comprehensive overview of:
-
-* Total volunteers
-* Active assignments
-* Open incidents
-* Workforce utilization
-
-### Volunteers
-
-Manage volunteer profiles including:
-
-* Skills
-* Location
-* Availability
-* Assignment history
-
-### Incidents
-
-Track operational issues and emergencies:
-
-* Medical incidents
-* Crowd management issues
-* Lost & found cases
-* Security concerns
-
-### AI Assignment Engine
-
-Matches volunteers using:
-
-* Skill relevance
-* Distance from incident
-* Current workload
-* Availability status
-
-### Analytics
-
-Generates insights on:
-
-* Volunteer efficiency
-* Skill distribution
-* Assignment success rate
-* Workforce demand
+* Firebase Authentication
+* Firestore Database
+* Real-time Updates
 
 ---
 
-## 🧠 AI Workflow
-
-### Volunteer Matching
-
-Input:
-
-```json
-{
-  "incident": "Medical Emergency",
-  "location": "Sector A",
-  "requiredSkills": ["First Aid"]
-}
-```
-
-Output:
-
-```json
-{
-  "recommendedVolunteers": [
-    {
-      "name": "Rahul",
-      "matchScore": 95
-    }
-  ]
-}
-```
-
-### Fatigue Analysis
-
-The AI evaluates:
-
-* Total working hours
-* Consecutive assignments
-* Recent workload
-
-And recommends:
-
-* Continue Assignment
-* Rotate Volunteer
-* Assign Break
-
----
-
-## 🔥 Firestore Collections
-
-### Volunteers
-
-```json
-{
-  "id": "",
-  "name": "",
-  "skills": [],
-  "location": "",
-  "status": "",
-  "workload": 0
-}
-```
-
-### Incidents
-
-```json
-{
-  "id": "",
-  "title": "",
-  "priority": "",
-  "location": "",
-  "status": ""
-}
-```
-
-### Assignments
-
-```json
-{
-  "incidentId": "",
-  "volunteerId": "",
-  "matchScore": 0,
-  "assignedAt": ""
-}
-```
-
----
-
-## ⚙️ Installation
-
-### Clone Repository
+## 📁 Project Structure
 
 ```bash
-git clone https://github.com/your-username/sevasetu-ai.git
+app/
+├── dashboard/
+├── volunteers/
+├── incidents/
+├── analytics/
+├── ai-assignment/
+├── api/
+
+components/
+├── dashboard/
+├── volunteers/
+├── incidents/
+├── layout/
+
+services/
+types/
+hooks/
+context/
+lib/
 ```
 
-### Navigate
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env.local` file:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
 
 ```bash
-cd sevasetu-ai
+git clone https://github.com/Mehtarishita/SevakSetu
 ```
 
-### Install Dependencies
+Move into the project:
+
+```bash
+cd sevaksetu-ai
+```
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Setup Environment Variables
-
-Create `.env.local`
-
-```env
-NEXT_PUBLIC_FIREBASE_API_KEY=
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=
-
-FIREBASE_CLIENT_EMAIL=
-FIREBASE_PRIVATE_KEY=
-
-GEMINI_API_KEY=
-```
-
-### Run Development Server
+Run locally:
 
 ```bash
 npm run dev
 ```
 
-Application will be available at:
+Open:
 
-```bash
+```text
 http://localhost:3000
 ```
 
 ---
 
-## 📸 Screens
+## 🌟 Future Roadmap
 
+### Phase 2
+
+* Firebase Authentication
+* Firestore Integration
+* Real-time Volunteer Tracking
+* GIS Mapping
+* Location Intelligence
+
+### Phase 3
+
+* WhatsApp Notifications
+* Predictive Volunteer Deployment
+* AI Fatigue Prediction
+* Crowd Forecasting
+* Emergency Escalation System
+
+---
+
+## 📸 Screenshots
+
+* Login Page
 * Dashboard
-* Command Center
 * Volunteer Management
-* Incident Tracking
-* AI Assignment Panel
+* Incident Management
+* AI Assignment Engine
 * Analytics Dashboard
 
 ---
 
-## 🎯 Future Enhancements
+## 👩‍💻 Developed By
 
-* Real-time GPS tracking
-* Crowd density prediction
-* AI chatbot assistant
-* Multi-language support
-* SMS and WhatsApp notifications
-* Predictive workforce planning
-* Mobile application
+**Rishita Mehta**
 
----
+B.Tech Computer Science Engineering
+VIT Bhopal University
 
-## 🏆 Hackathon Track
-
-**Smart Volunteer Deployment & Workforce Optimization**
-
-Built to improve volunteer coordination, operational efficiency, and emergency response for large-scale public gatherings such as Mahakumbh.
-
----
-
-## 👩‍💻 Team
-
-Developed with ❤️ using AI-assisted development tools including ChatGPT, Gemini, GitHub Copilot, and modern full-stack technologies.
+Passionate about technology, design, AI, innovation, and building impactful solutions for real-world problems.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+Developed for educational, research, innovation, and hackathon purposes.
