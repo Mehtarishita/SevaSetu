@@ -44,7 +44,7 @@ SevakSetu AI addresses these challenges through an AI-assisted command center.
 
 ### Volunteer Management
 
-![Volunteers](Screenshots/volunteers.png)
+![Volunteers](Screenshots/Volunteers.png)
 
 ### AI Assignment Engine
 
