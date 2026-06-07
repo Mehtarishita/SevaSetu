@@ -6,7 +6,16 @@ SevakSetu AI is an intelligent volunteer deployment and incident management plat
 
 The platform combines volunteer management, incident response coordination, analytics, and AI-powered recommendations to help organizers deploy the right volunteers at the right time.
 
+
+# 🚀 SevakSetu AI
+
+![Dashboard Preview](screenshots/dashboard.png)
+
+AI-Powered Volunteer Operations Platform for Large-Scale Events
 ---
+## 📸 Screenshots
+
+
 
 ## 🎯 Problem Statement
 
@@ -25,6 +34,25 @@ SevakSetu AI addresses these challenges through an AI-assisted command center.
 ---
 
 ## ✨ Features
+### Login Page
+
+![Login](screenshots/login.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Volunteer Management
+
+![Volunteers](screenshots/volunteers.png)
+
+### AI Assignment Engine
+
+![AI Assignment](screenshots/AI Assignment.png)
+
+### Analytics Dashboard
+
+![Analytics](screenshots/Analytics.png)
 
 ### 👥 Volunteer Management
 
