@@ -5,7 +5,7 @@
 
 ### Smart Volunteer Deployment & Workforce Optimization
 
-For Large-Scale Events, Festivals, Public Gatherings & Emergency Operations
+                 For Mahakumbh 2028
 
 <br>
 
