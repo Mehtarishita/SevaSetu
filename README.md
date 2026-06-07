@@ -4,9 +4,7 @@
 ### Connecting Volunteers. Accelerating Response. Empowering Operations.
 
 ### Smart Volunteer Deployment & Workforce Optimization
-
-                 For Mahakumbh 2028
-
+###                       FOR MAHAKAL 2028
 <br>
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
