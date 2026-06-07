@@ -13,9 +13,6 @@ The platform combines volunteer management, incident response coordination, anal
 
 AI-Powered Volunteer Operations Platform for Large-Scale Events
 ---
-## 📸 Screenshots
-
-
 
 ## 🎯 Problem Statement
 
