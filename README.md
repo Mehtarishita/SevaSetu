@@ -1,18 +1,44 @@
-# 🚀 SevakSetu AI
+<div align="center">
 
-### AI-Powered Volunteer Operations Platform for Mahakumbh 2028
+#   SevakSetu AI • सेवकसेतु AI 
+### Connecting Volunteers. Accelerating Response. Empowering Operations.
 
-SevakSetu AI is an intelligent volunteer deployment and incident management platform designed for large-scale public events such as **Mahakumbh 2028**.
+### Smart Volunteer Deployment & Workforce Optimization
 
-The platform combines volunteer management, incident response coordination, analytics, and AI-powered recommendations to help organizers deploy the right volunteers at the right time.
+For Large-Scale Events, Festivals, Public Gatherings & Emergency Operations
 
+<br>
 
-# 🚀 SevakSetu AI
+[![Live Demo](https://img.shields.io/badge/🌐_LIVE_DEMO-VISIT_APP-orange?style=for-the-badge)](YOUR_VERCEL_LINK)
 
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
+
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?style=for-the-badge&logo=tailwindcss)
+
+![Gemini AI](https://img.shields.io/badge/Gemini-AI-orange?style=for-the-badge&logo=google)
+
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)
+
+</div>
 ![Dashboard Preview](Screenshots/dashboard.png)
-
-AI-Powered Volunteer Operations Platform for Large-Scale Events
 ---
+
+## 🎯 Vision
+
+SevakSetu AI is an intelligent volunteer coordination platform designed to streamline volunteer deployment, incident response, and operational decision-making during large-scale events.
+
+The platform leverages Artificial Intelligence to recommend the most suitable volunteers based on:
+
+- Skills
+- Availability
+- Fatigue Levels
+- Language Compatibility
+- Incident Requirements
+
+This enables faster response times, better resource utilization, and improved operational efficiency.
+
 
 ## 🎯 Problem Statement
 
