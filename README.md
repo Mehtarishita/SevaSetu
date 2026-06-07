@@ -261,11 +261,7 @@ Gemini Flash was chosen for its **low-latency, high-accuracy reasoning** on stru
   </tr>
   <tr>
     <td><img src="Screenshots/Volunteers.png" alt="Volunteers" width="100%"/></td>
-    <td><img src="Screenshots/Incidents.png" alt="Incidents" width="100%"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🤖 AI Assignment Engine</strong></td>
-    <td align="center"><strong>📈 Analytics</strong></td>
+    <td><img src="Screenshots/Incident.png" alt="Incidents" width="100%"/></td>
   </tr>
   <tr>
     <td><img src="Screenshots/AI-Assignment.png" alt="AI Assignment" width="100%"/></td>
