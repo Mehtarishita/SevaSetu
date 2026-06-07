@@ -9,21 +9,22 @@ For Large-Scale Events, Festivals, Public Gatherings & Emergency Operations
 
 <br>
 
-[![Live Demo](https://img.shields.io/badge/🌐_LIVE_DEMO-VISIT_APP-orange?style=for-the-badge)](YOUR_VERCEL_LINK)
-
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
-
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
-
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?style=for-the-badge&logo=tailwindcss)
-
 ![Gemini AI](https://img.shields.io/badge/Gemini-AI-orange?style=for-the-badge&logo=google)
-
 ![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)
 
 </div>
+
+
+### Dashboard Preview
+
 ![Dashboard Preview](Screenshots/dashboard.png)
+
 ---
+
+
 
 ## 🎯 Vision
 
