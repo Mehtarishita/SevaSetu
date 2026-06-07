@@ -264,7 +264,7 @@ npm run dev
 Open:
 
 ```text
-http://localhost:3000
+https://github.com/Mehtarishita/SevakSetu
 ```
 
 ---
