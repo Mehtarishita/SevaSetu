@@ -45,7 +45,7 @@ SevakSetu AI addresses these challenges through an AI-assisted command center.
 
 ### AI Assignment Engine
 
-![AI Assignment](screenshots/AI Assignment.png)
+![AI Assignment](screenshots/AI-Assignment.png)
 
 ### Analytics Dashboard
 
